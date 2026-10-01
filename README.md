@@ -79,3 +79,4 @@ Get-Content verification\gui-exe.json,verification\gui-scan.json,verification\co
 ## 驗證紀錄
 
 - 2026-09-29：視窗版及 Console 版完成；RSSI 結構、搜尋與介面測試通過。在當時的桌面環境中，兩版皆成功取得附近網路的 RSSI。即時網路數量不是固定測試基準。
+- 2026-10-01：原始碼已公開於 [ckQQQ/wifi-ssid-scanner](https://github.com/ckQQQ/wifi-ssid-scanner)。發布前重新執行九項單元測試、視窗版 smoke test、兩版建置與實際掃描；兩個重建的 EXE 均成功取得 RSSI。`v1.0.0` Release 附上視窗版、Console 版及 SHA-256 校驗清單，供下載與核對。
